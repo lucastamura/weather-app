@@ -16,8 +16,8 @@ export interface WeatherDatas {
   main: {
     temp: number;
     feels_like: number;
-    temp_min: number;
     temp_max: number;
+    temp_min: number;
     pressure: number;
     humidity: number;
   };
@@ -39,6 +39,6 @@ export interface WeatherDatas {
   };
   timezone: number;
   id: number;
-  nane: string;
+  name: string;
   cod: number;
 }
